@@ -35,8 +35,12 @@ a {
   text-decoration: none;
 }
 
+ul li a {
+  opacity: 0.5;
+}
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 h1, ul {
@@ -88,7 +92,7 @@ section p {
   justify-content: center;
   gap: 10px;
 
-  border-radius: 4px;
+  border-radius: 13px;
 
   cursor: pointer;
 }
