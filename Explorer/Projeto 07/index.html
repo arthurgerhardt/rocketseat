@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoblog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="container">
+        <nav>
+          <img class="logo" src="./assets/camera.svg" alt="Imagem da logomarca" />
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="active">Galeria</li>
+          </ul>
+        </nav>
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input
+              id="search"
+              type="text"
+              placeholder="Pesquise por imagens e coleções"
+            />
+          </div>
+        </form>
+        <img
+          class="avatar"
+          src="./assets/avatar1.jpg"
+          alt="Imagem de um homem"
+        />
+      </header>
+      <main>
+        <div class="container">
+          <h1>Galeria</h1>
+          <section class="gallery">
+            <figure class="item" style="--delay: .6s">
+                <img src="./assets/workspace.jpg" alt="Workspace elétrica">
+                <figcaption class="details">
+                    <h2>Workspace elétrica</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 0.8s">
+                <img src="./assets/dark-and-red.jpg" alt="Dark and Red">
+                <figcaption class="details">
+                    <h2>Dark and Red</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1s">
+                <img src="./assets/organizacao-grid.png" alt="Organização e grids">
+                <figcaption class="details">
+                    <h2>Organização e grids</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.2s">
+                <img src="./assets/colmeia.png" alt="Colméia">
+                <figcaption class="details">
+                    <h2>Colméia</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.4s">
+                <img src="./assets/setup-escritor.png" alt="Setup Escritor">
+                <figcaption class="details">
+                    <h2>Setup Escritor</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.6s">
+                <img src="./assets/ergonomia-cores.png" alt="Ergonomia e Cores">
+                    <h2>Ergonomia e Cores</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item">
+                <img src="./assets/show-de-luzes.png" alt="Show de luzes">
+                <figcaption class="details">
+                    <h2>Show de luzes</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.8s">
+                <img src="./assets/deep-purple.png" alt="Deep Purple">
+                <figcaption class="details">
+                    <h2>Deep Purple</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 2s">
+                <img src="./assets/multi-screen.png" alt="Multi Screen">
+                <figcaption class="details">
+                    <h2>Multi Screen</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+                </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+      <footer class="container">
+        <p>©<a href="https://app.rocketseat.com.br/journey/explorer/contents" target="_blank">2023 - Rocketseat Explorer</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
