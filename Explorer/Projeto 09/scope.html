@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // const e let são locais e só funcionam no escopo onde foi criada
+    const y = 1
+      {
+        const y = 0;
+        console.log("> existe y antes do bloco?", y);
+      }
+
+      console.log("> existe y depois do bloco?", y);
+    </script>
+  </body>
+</html>
