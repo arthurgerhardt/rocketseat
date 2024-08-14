@@ -1,16 +1,14 @@
-// Throw 
+// Estrutura de repeticao
+// For in
 
-function sayMyName(name = '') {
-    if (name === '') {
-        throw 'Nome obrigatório'
-    }
-    console.log(name)
-}
+let person = {
+    name: 'John',
+    age: 30,
+    weight: 75.5,
+    city: 'New York'
+};  
 
-// Try...catch
-try {
-    sayMyName('Arthur')
-} catch (e) {
-    console.log(e)
+for (let property in person) {
+    console.log(property);
+    console.log(person[property]);
 }
-console.log('após a função ser executada')
