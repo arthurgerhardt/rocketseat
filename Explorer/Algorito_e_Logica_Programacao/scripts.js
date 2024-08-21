@@ -1,34 +1,39 @@
 /*
-    Solicitar  o nome do aluno e as 3 notas
-    do bimestre, calcular a média daquele aluno.
+    Crie uma lista de pacientes
 
-    A média positiva deverá ser maior que 6.
-    
-    Se o aluno passou no bimestre, dar os parabéns.
+    Cada paciente dentro da lista,  deverá conter
+      - Nome
+      - Idade
+      - peso
+      - altura
 
-    Se o aluno não passou no bimestre,
-    motivar o aluno a dar o seu melhor na prova
-    de recuperacao.
-
-    Em ambos os casos, mostre uma mensagem com o nome do aluno e a nota.
-
+    Escreva uma lista contendo o nome dos pacientes
 */
 
-let student = prompt("Digite o nome do(a) aluno(a)? ")
-let n1 = prompt("Qual a nota da primeira prova? ")
-let n2 = prompt("Qual a nota da segunda prova? ")
-let n3 = prompt("Qual a nota da terceira prova?  ")
+const patients = [
+    {
+        name: 'John Doe',
+        age: 25,
+        weight: 85,
+        height: 1.75,
+    },
+    {
+        name: 'Jane Smith',
+        age: 30,
+        weight: 70,
+        height: 1.65,
+    },
+    {
+        name: 'Alice Johnson',
+        age: 28,
+        weight: 65,
+        height: 1.70,
+    },
+]
 
-/* Fazer a média */
-let average = (Number(n1) + Number(n2)  + Number(n3)) / 3
-let result = average > 6
-average = average.toFixed(2)
-/* Mostrar resultados */
-
-if (result) {
-    alert("Parabéns! " + student + "Você passou no bimestre. A sua média é: " + average)
-} else if (average < 3) {
-    alert("Reprovado.")
-} else {
-    alert(student + "." +  " Estude para a sua prova de recuperação. A sua média é de: " + average)
+let patientsNames = []
+for (let patient of patients) {
+    patientsNames.push(patient.name, patient.weight, patient.height, patient.age)
 }
+
+alert(patientsNames)

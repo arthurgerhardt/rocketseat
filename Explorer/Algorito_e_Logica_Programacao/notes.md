@@ -1,17 +1,7 @@
-# Fluxo da aplicação
+Estrutura de dados
 
-- Caminhos lógicos baseados em algum dado ou informação
+# Ferramentas da linguagem que abordaremos
 
-# Boas práticas na programação
-- Não repetir código
-- 
-
-[] Tipo de dado: Boolean (true or false)
-[] if/else (else-if)
-[] Operadores comparativos
-  - > (maior que)
-  - < (menor que)
-  - >= (maior ou igual a)
-  - <= (menor ou igual a)
-  - == (igual a)
-  - != (diferente de)
+[] Estrutura de dados: Objetos
+    [] Object literal
+[] For of
