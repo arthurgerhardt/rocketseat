@@ -1,4 +1,4 @@
-idade = 25
+idade = 12
 
 if idade < 18:
     print("Menor de idade")
