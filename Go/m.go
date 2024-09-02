@@ -3,15 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	x := 10
-	create(x)
-	fmt.Println(x)
+	arr := [5] int{1, 2, 3, 4, 5}
+	slice := arr[1:4]
+	arr[2] = 15
+	slice[0] = 123
+	fmt.Println(arr)
 }
-
-func create() *int {
-	x := 10
-	return &x
-}
-
-// p = 0x123
-//p --> 0x123 = ?
