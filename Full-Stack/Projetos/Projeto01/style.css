@@ -4,6 +4,12 @@
     box-sizing: border-box;
 } 
 
+:root {
+    font-family: 'Alice', sans-serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
 body {
     background-image: url(./assets/bg-image.png);
     background-size: cover;
@@ -21,4 +27,47 @@ body {
 
 img {
     border-radius: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+ul {
+    padding: 28px;
+}
+
+#footer {
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
