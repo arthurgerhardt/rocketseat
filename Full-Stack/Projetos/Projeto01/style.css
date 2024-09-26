@@ -22,7 +22,7 @@ body {
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
-    margin: 48px auto 48px;
+    margin: 48px auto 28px;
 }
 
 img {
@@ -61,13 +61,18 @@ ul {
 }
 
 #footer {
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     margin-top: 24px;
+    color: rgb(204, 128, 30);
+    padding-bottom: 48px;
 }
 
 #footer a {
     text-decoration: none;
-    color: #000;
+    color: #820f0f;
     font-weight: bold;
+}
+
+#footer a:hover {
+    color: #c53333;
 }
