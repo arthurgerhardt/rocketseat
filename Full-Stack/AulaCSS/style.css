@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: stretch;
+  /* align-content: space-evenly;
+    gap: 0; 
+    flex-wrap: wrap; */
+}
+
+.item {
+  /*width: 20px;
+    flex-basis: 120px;
+    flex-grow: 1; 
+    flex-shrink: 0.5; 
+    flex-grow: 1; */
+}
+
+.item:nth-child(2) {
+  /* flex-grow: 3; 
+    flex-shrink: 1; */
+}
