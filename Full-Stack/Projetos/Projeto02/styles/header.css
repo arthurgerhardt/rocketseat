@@ -8,12 +8,11 @@ header, .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 230px;
 }
 
 #profile {
     display: flex;
-    gap: 25px;
+    gap: 32px;
 }
 
 #profile > div {
@@ -30,13 +29,12 @@ header, .container {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 21px;
+    gap: 16px;
     width: 280px;
-    padding-left: 230px;
 }
 
 #info li {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
