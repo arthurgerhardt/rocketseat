@@ -2,23 +2,20 @@ package je13_poo;
 
 public class Sistema {
     public static void main(String[] args) {
-        Cliente gleyson = new Cliente();
-        gleyson.nome = "Gleyson Sampaio";
+        Cliente gleyson = new Cliente("Gleyson Sampaio");
         System.out.println(gleyson.limiteCredito);
-        gleyson.solicitarLimiteCredito(500.0);
-        System.out.println("O saldo de " + gleyson.nome + " é " +gleyson.limiteCredito);
+        gleyson.solicitarLimiteCredito(200.0);
+        System.out.println("O novo limite de crédito é de: " + gleyson.limiteCredito);
 
-        gleyson.comprar(50.0);
+        gleyson.comprar(70.0);
+        System.out.println("O saldo atual é de: " + gleyson.limiteCredito);
 
-        Cliente izabelly = new Cliente();
-        izabelly.nome = "Izabelly Sampaio";
+        Cliente izabelly = new Cliente("Izabelly Sampaio");
         System.out.println(izabelly.limiteCredito);
-        izabelly.solicitarLimiteCredito(80.0);
-        System.out.println("O saldo de " + izabelly.nome + " é " +izabelly.limiteCredito);
-        gleyson.comprar(22.0);
+        izabelly.solicitarLimiteCredito(100.0);
+        System.out.println("O novo limite de crédito é de: " + izabelly.limiteCredito);
 
-        System.out.println("Limite do(a): " + izabelly.nome + " é " + izabelly.limiteCredito);
-        System.out.println("Limite do(a): " + gleyson.nome + " é " + gleyson.limiteCredito);
-
+        izabelly.comprar(22.0);
+        System.out.println("O saldo atual é de: " + izabelly.limiteCredito);
     }
 }

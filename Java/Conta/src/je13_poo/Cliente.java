@@ -2,13 +2,17 @@ package je13_poo;
 
 public class Cliente {
     String nome;
-    Double limiteCredito = 10.0;
+    Double limiteCredito = 100.0;
 
     public void solicitarLimiteCredito(Double valorSolicitado) {
-        Double limiteCredito = valorSolicitado;
+        limiteCredito = valorSolicitado;
     }
 
     public void comprar(Double valorProduto) {
         limiteCredito = limiteCredito - valorProduto;
+    }
+
+    public Cliente (String nome) {
+        this.nome = nome;
     }
 }
