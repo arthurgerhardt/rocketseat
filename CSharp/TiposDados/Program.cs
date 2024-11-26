@@ -1,14 +1,15 @@
-﻿using System;
-using System.Text;
+﻿// Bibliotecas padrão necessárias
+using System;
 
 namespace TiposDados
 {
+    // Classe principal do programa
     class Program
     {
+        // Método Main: ponto de entrada do programa
         static void Main(string[] args)
         {
-            string texto = "O usuário Arthur gosta do número 7.";
-            Console.WriteLine(texto);
+           Console.WriteLine("Tipos de Dados em C#");
         }
     }
 }
