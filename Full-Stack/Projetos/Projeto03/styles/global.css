@@ -5,20 +5,19 @@
 }
 
 :root {
-    /* cores */
-    --brand-color-light: #60A5FA;
+    --brand-color-light: #60A5FA ;
     --brand-color-dark: #1D4ED8;
     --bg-color: #0F172A;
     --stroke-color: #1E293B;
     --text-color-primary: #F1F5F9;
-    --text-color-secundary: #CBD5E1;
-    /* font */
+    --text-color-secondary: #CBD5E1;
+
     --font-family: 'Archivo', sans-serif;
     --h1: 800 24px/135% var(--font-family);
     --h2: 800 16px/140% var(--font-family);
     --h3: 800 14px/140% var(--font-family);
     --text-span: 600 14px/145% var(--font-family);
-    --text: 400 16px/140% var(--font-family);
+    --text: 400 14px/160% var(--font-family);
     --text-sm: 400 14px/160% var(--font-family);
 
 }
@@ -35,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: var(--brand-color-light);
+    color: var(--brand-color-light)
 }
 
 h1, h2, h3 {
@@ -48,13 +47,19 @@ img {
 
 .container {
     max-width: 1280px;
-    padding-inline: 32px;
+    padding-inline: 32px; 
     margin-inline: auto;
-
 }
 
 main {
-    margin-top: 40px;
+    margin-block: 40px;
+    row-gap: 80px;
+    column-gap: 32px;
+    grid-template-columns: 2fr 1.3fr;
+
+    grid-template-areas: "featured featured" 
+    "weekly weekly" 
+    "ia aside";
 }
 
 .content-tag {
@@ -66,5 +71,5 @@ main {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--text-color-primary);
-    box-shadow: 0px 4px 16px #02061740;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
