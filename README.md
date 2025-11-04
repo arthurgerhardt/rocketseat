@@ -1,14 +1,28 @@
-# Rocketseat
+# 🚀 Rocketseat
 
-Repositório com projetos e exercícios desenvolvidos durante os cursos da Rocketseat.
+Repositório para projetos e exercícios desenvolvidos durante os cursos, eventos e trilhas da Rocketseat.
 
-## Estrutura
+## 📁 Estrutura
 
-- `projetos/`: projetos organizados por tema
-- `imagens/`: recursos visuais usados nos projetos
-- `index.html`: página principal
-- `style.css`: estilos globais
+- `ignite/` — Projetos e exercícios das trilhas avançadas
+- `nlw/` — Projetos desenvolvidos durante os eventos Next Level Week
+- `explorer/` — Conteúdos voltados para iniciantes e fundamentos
+- `global/` — Projetos independentes e experimentais, como landing pages e consultorias
 
-## Autor
+## 🛠️ Tecnologias utilizadas
 
-Arthur Gerhardt — [GitHub](https://github.com/arthurgerhardt)
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- Figma (design de interfaces)
+- Node.js *(em alguns projetos)*
+- React *(em projetos avançados)*
+
+## ▶️ Como rodar os projetos
+
+Cada pasta contém um projeto independente. Para visualizar ou executar:
+
+1. Navegue até a pasta desejada:
+   ```bash
+   cd explorer/projeto01
