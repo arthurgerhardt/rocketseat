@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+dist/
+.env
+
+# Arquivos temporários
+*.log
+*.zip
+*.tmp
