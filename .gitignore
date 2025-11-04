@@ -1,22 +1,15 @@
 # macOS
 .DS_Store
 
+# VS Code
+.vscode/
+
 # Node.js
 node_modules/
 dist/
 .env
 
-# VS Code
-.vscode/
-
-# Logs
+# Arquivos temporários
 *.log
-
-# Zips e backups
 *.zip
-*.bak
 *.tmp
-
-# Imagens temporárias
-*.psd
-*.xcf
